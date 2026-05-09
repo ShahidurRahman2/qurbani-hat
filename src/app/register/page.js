@@ -21,7 +21,7 @@ export default function Register() {
                 email,
                 password,
                 name,
-                image, // ✅ now included
+                image, // 
             });
 
             toast.success("Registration successful!");

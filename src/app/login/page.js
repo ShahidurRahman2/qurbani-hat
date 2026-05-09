@@ -51,7 +51,7 @@ export default function Login() {
 
             <form onSubmit={handleLogin} className="space-y-3">
 
-                {/* EMAIL */}
+                {/* EMAIL  ar jonno*/}
                 <input
                     type="email"
                     placeholder="Email"
@@ -60,7 +60,7 @@ export default function Login() {
                     required
                 />
 
-                {/* PASSWORD */}
+                {/* PASSWORD ad filed */}
                 <input
                     type="password"
                     placeholder="Password"
@@ -74,10 +74,10 @@ export default function Login() {
                 </button>
             </form>
 
-            {/* GOOGLE LOGIN */}
+            {/* GOOGLE ar button */}
             <button
                 onClick={handleGoogle}
-                className="btn btn-outline w-full mt-3"
+                className="btn btn-outline w-full mt-4"
             >
                 Continue with Google
             </button>
