@@ -17,8 +17,10 @@ export default function Home() {
             />
           </div>
 
+
+
           <div className="content-end w-2/3">
-            <h1 className="text-3xl lg:text-4xl font-bold">
+            <h1 className="text-3xl lg:text-4xl font-bold animate__animated animate__fadeInDown">
               Find Your Perfect Qurbani Animal
             </h1>
 
