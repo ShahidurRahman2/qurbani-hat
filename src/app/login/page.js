@@ -28,7 +28,7 @@ export default function Login() {
         }
     };
 
-    // ⚠️ Google login (optional if better-auth supports)
+    // Google login 
     const handleGoogle = async () => {
         try {
             await authClient.signIn.social({
