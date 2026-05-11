@@ -68,6 +68,47 @@ export default function Home() {
         ))}
       </div>
 
+
+
+
+      {/* new section here */}
+
+      <div className="bg-gradient-to-r from-blue-50 via-white to-green-50 py-12 px-6 mt-10 rounded-2xl">
+
+        <h2 className="text-3xl font-bold text-center ">
+          Qurbani Tips & Guide
+        </h2>
+
+        <div className="grid md:grid-cols-3 gap-6 mt-8 max-w-6xl mx-auto">
+
+          <div className="bg-white p-5 rounded-xl shadow">
+            <h3 className="font-bold text-blue-600">Healthy Selection</h3>
+            <p className="text-sm mt-2 text-gray-600">
+              Always choose healthy, active animals with clear eyes and good weight.
+            </p>
+          </div>
+
+          <div className="bg-white p-5 rounded-xl shadow">
+            <h3 className="font-bold text-blue-600">Fair Pricing</h3>
+            <p className="text-sm mt-2 text-gray-600">
+              Compare prices before booking to avoid overpaying.
+            </p>
+          </div>
+
+          <div className="bg-white p-5 rounded-xl shadow">
+            <h3 className="font-bold text-blue-600">Proper Care</h3>
+            <p className="text-sm mt-2 text-gray-600">
+              Ensure animals are well-fed and kept in clean environments.
+            </p>
+          </div>
+
+        </div>
+      </div>
+
     </div>
+
+
+
+
   );
 }
