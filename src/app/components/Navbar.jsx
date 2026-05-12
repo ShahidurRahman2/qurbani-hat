@@ -19,6 +19,7 @@ export default function Navbar() {
             },
         });
     };
+    console.log(session)
 
     return (
         <div className="navbar bg-base-100 shadow-md px-4 md:px-8">
@@ -26,7 +27,7 @@ export default function Navbar() {
             {/* LEFT */}
             <div className="navbar-start">
 
-                {/* MOBILE MENU */}
+                {/* MOBILE  */}
                 <div className="dropdown md:hidden">
 
                     <div
